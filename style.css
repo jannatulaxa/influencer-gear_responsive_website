@@ -1,0 +1,373 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#hide{
+    display: none;
+}
+/* header1 */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    margin: 0px 120px;
+}
+.hlogo{
+    font-size: 14px;
+    font-weight: 900;
+    color: rgb(0, 1, 59);
+    margin-left: 10px;
+
+}
+.hul{
+    display: flex;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hul > li>a{
+    text-decoration: none;
+    padding-right: 35px;
+    color: rgb(0, 1, 59);
+    font-size: 17px;
+    
+}
+.str >i{
+    font-size: 28px;
+
+}
+
+
+/* header0 */
+/*     <!-- section01 1 --> */
+.section01{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 130px;
+    font-weight: bolder;
+    margin-top: 15px;
+
+}
+.s01div01{
+    width: 620px;
+
+}
+.s01div01h1{
+    font-size: 60px;
+    font-weight: 700;
+
+}
+.s01div01p{
+    font-size: 18px;
+    margin-top: -25px;
+}
+.s01div01btn{
+    color: white;
+    background-color: rgb(255, 37, 106);
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.s01div01btn > i{
+    margin-left: 5px;
+    margin-top: 4px;
+}
+.s01div02{
+    margin-left: 220px;
+    width: 48%;
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-size: 470px;
+    height: 550px;
+}
+.s01div02> img{
+    height: 450px;
+}
+
+/*     <!-- section01 0 --> */
+/*     <!-- section02 1 --> */
+.section02{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 20px;
+}
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+}
+.logo{
+    padding: 15px 32px;
+}
+
+/*     <!-- section02 0 --> */
+/*     <!-- section03 1 --> */
+.section03{
+    margin-top: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.section03mainh1{
+    font-size: 32px;
+}
+.secoundsection03{
+    width: 70%;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    margin: 20px;
+    padding: 15px;
+    text-align: left;
+    box-shadow: 15px 15px 20px rgba(172, 172, 172, 0.253), -15px -15px 20px rgba(165, 165, 165, 0.204);
+    border-radius: 7px;
+}
+.card > h1{
+    font-size: 32px;
+    font-weight: 600;
+}
+.card > h3{
+    font-size: 30px;
+    font-weight: 20;
+    margin-top: -10px;
+}
+.card > p{
+    font-weight: 750;
+    color: rgb(116, 116, 116);
+    line-height: 20px;
+
+}
+.p2{
+    margin-top: -14px;
+}
+
+.sm{
+    margin-top: 40px;
+    text-align: right;
+    font-weight: bold;
+}
+.sm > a{
+    text-decoration: none;
+    color: rgb(255, 37, 106);
+    font-weight: bold;
+}
+
+/*     <!-- section03 0 --> */
+/*     <!-- section04 1 --> */
+.section04{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 70px;
+    font-weight: bolder;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+.s04div01{
+    width: 820px;
+    margin-right: 150px;
+    font-weight: 900;
+
+}
+.s04div01h1{
+    font-size: 43px;
+
+}
+.s04div01p{
+    font-size: 16px;
+    color: rgb(135, 135, 135);
+    line-height: 30px;
+
+}
+.s04div01btn{
+    color: white;
+    background-color: rgb(255, 37, 106);
+    padding: 15px 35px;
+    /* border-radius: 20px; */
+    border: none;
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.s04div02{
+    width: 48%;
+    /* background-repeat: no-repeat; */
+    background-size: 418px;
+    margin-left: 110px;
+    margin-top: 45px;
+}
+/*     <!-- section04 0 --> */
+/* <!-- footer 1 --> */
+footer{
+    background-color: rgb(0, 1, 59);
+    color: white;
+    text-align: center;
+    /* margin-top: 150px; */
+}
+.ftdiv{
+    padding: 50px;
+    line-height: 15px;
+}
+.ftdiv> h1{
+    font-size: 26px;
+}
+
+.fticn > i{
+    padding: 10px 15px;
+}
+/* <!-- footer 0 --> */
+
+
+
+
+@media screen and (max-width:576px) {
+    body{
+        overflow-x: hidden;
+    }
+    
+    /* header1 */
+    header{
+        flex-direction: column;
+        text-align: center;
+        width: 574px;
+        margin-left: 0 ;
+        margin-top: 20px;
+    }
+    .hlogo{
+        margin: 0;
+    }
+    .hul{
+        padding-left: 0;
+    }
+    .hliicon{
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -20px;
+        
+    }
+    .hul li{
+        width: 85px;
+        margin-right: 5px;
+        text-align: center;
+    }
+    .hul > li>a{
+        text-decoration: none;
+        padding: 0;
+        color: rgb(0, 1, 59);
+        font-size: 17px;
+    }
+    .str >i{
+        font-size: 28px;
+    }
+    .sm{
+        margin-bottom: 50px;
+    }
+    /* header0 */
+    /*     <!-- section01 1 --> */
+    .section01{
+        flex-direction: column-reverse;
+        margin-left: 0;
+        padding: 20px;
+    }
+    .s01div01{
+        width: 550px;
+        text-align: center;
+        margin-top: -100px;
+        margin-bottom: 50px;
+    }
+    .s01div02{
+        margin-top: 50px;   
+        position: relative;
+        margin-left: 80px; 
+        width: 550px;
+    }
+    .s01div02{
+    }
+
+    /*     <!-- section01 0 --> */
+    /*     <!-- section02 1 --> */
+    .logos{
+        width: 550px;
+        flex-wrap: wrap;
+    }
+    .logo{
+        padding: 5px 25px;
+    }
+    hr{
+        display: none;
+    }
+    /*     <!-- section02 0 --> */
+    /*     <!-- section03 1 --> */
+    .section03{
+        width: 574px;
+    }
+    .cards{
+        flex-direction: column;
+        width: 500px;
+        margin-left: -50px;
+    }
+    .card > img{
+        height: 367px;
+    }
+    .card > h1{
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+    .card > h3{
+        font-size: 2.5rem;
+        font-weight: 900;
+        margin-top: -30px;
+
+    }
+    .card > p{
+        font-size: 1.4rem;
+        font-weight: 500;
+        margin-top: -20px;
+        margin-bottom: 20px;
+        line-height: 30px;
+    }
+    .sm{
+        font-size: 30px;
+        margin-right: -25px;
+    }
+/*     <!-- section03 0 --> */
+/*     <!-- section04 1 --> */
+    .section04{
+        flex-direction: column-reverse;
+        width: 550px;
+        margin: 0 auto;
+        padding-bottom: 100px;
+    }
+    .s04div01{
+        width: 550px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .s04div02{
+        width: 405px;
+        margin-left: 0;
+    }
+\
+    /*     <!-- section04 0 --> */
+
+
+
+            
+        }
